@@ -1,4 +1,4 @@
-# DataVisualization
+# Data Science Jobs and Salary Trends across World (2020-2021)
 **Data Science Market Insights**
 
 **Overview:**
