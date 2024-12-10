@@ -1,30 +1,33 @@
 # Data Folder
 
-This folder contains the dataset used in the project. The dataset is preprocessed and ready for analysis.
+This folder contains the datasets used in the **Data Science Market Insights Dashboard** project. The datasets have been carefully preprocessed and cleaned to ensure accuracy and consistency for analysis and visualization.
 
 ---
 
-## Dataset: `ds_salaries.csv`
+## Datasets
 
-### Description
-The dataset contains detailed information about data science professionals, their roles, salaries, and employment conditions.
+### **1. `ds_salaries.csv`**
+- **Description**: The raw dataset containing information about salaries, job roles, and company details for data science professionals.
+- **Fields**:
+  - **work_year**: The year in which the salary data was recorded.
+  - **experience_level**: Seniority level in the role (Entry-level, Intermediate, Senior, Expert).
+  - **employment_type**: Type of employment (Full-time, Part-time, Freelance, or Contract).
+  - **job_title**: Title of the role (e.g., Data Scientist, ML Engineer).
+  - **salary_in_usd**: Annual salary converted to USD for global comparison.
+  - **company_location**: Location of the hiring company.
+  - **employee_residence**: Country where the employee resides.
 
-### Fields
-1. **work_year**: The year in which the salary was recorded (e.g., 2020, 2021, 2022).
-2. **experience_level**: The level of experience in the role (Entry-level, Intermediate, Senior, or Expert).
-3. **employment_type**: The type of employment (Full-time, Part-time, Freelance, or Contract).
-4. **job_title**: The job title of the employee (e.g., Data Scientist, ML Engineer).
-5. **salary_in_usd**: The annual salary of the employee, normalized to USD for global comparison.
-6. **company_location**: The geographic location of the company hiring the employee.
-7. **employee_residence**: The country where the employee resides.
+---
+
+### **2. `ds_salaries_cleaned.csv`**
+- **Description**: The cleaned version of the dataset, prepared for analysis and visualization.
+- **Changes Made**:
+  - Missing values were identified and removed.
+  - Columns were checked for consistency and corrected where necessary.
+  - Outliers in salary data were flagged and addressed to maintain realistic ranges.
 
 ---
 
 ## Notes
-- The data has been preprocessed to ensure consistency.
-- Any rows with missing or invalid values have been removed.
-
----
-
-## File Information
-- **`ds_salaries.csv`**: Main dataset used for analysis.
+- The cleaned dataset is primarily used in the **exploratory_analysis.ipynb** notebook and the **Tableau dashboard**.
+- Ensure any future modifications to the raw dataset are documented before updating the cleaned dataset.
