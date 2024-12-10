@@ -1,0 +1,30 @@
+# Data Folder
+
+This folder contains the dataset used in the project. The dataset is preprocessed and ready for analysis.
+
+---
+
+## Dataset: `ds_salaries.csv`
+
+### Description
+The dataset contains detailed information about data science professionals, their roles, salaries, and employment conditions.
+
+### Fields
+1. **work_year**: The year in which the salary was recorded (e.g., 2020, 2021, 2022).
+2. **experience_level**: The level of experience in the role (Entry-level, Intermediate, Senior, or Expert).
+3. **employment_type**: The type of employment (Full-time, Part-time, Freelance, or Contract).
+4. **job_title**: The job title of the employee (e.g., Data Scientist, ML Engineer).
+5. **salary_in_usd**: The annual salary of the employee, normalized to USD for global comparison.
+6. **company_location**: The geographic location of the company hiring the employee.
+7. **employee_residence**: The country where the employee resides.
+
+---
+
+## Notes
+- The data has been preprocessed to ensure consistency.
+- Any rows with missing or invalid values have been removed.
+
+---
+
+## File Information
+- **`ds_salaries.csv`**: Main dataset used for analysis.
